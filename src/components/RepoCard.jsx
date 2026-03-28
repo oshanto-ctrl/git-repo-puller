@@ -31,7 +31,7 @@ const RepoCard = ({ repo }) => {
             <p className="text-blue-500 font-medium text-sm">{repo.full_name}</p>
 
             {/* Description */}
-            <p className="text-gray-600 text-sm mt-1">
+            <p className="text-gray-600 text-sm mt-1 line-clamp-3">
                 {repo.description || "No description."}
             </p>
 
